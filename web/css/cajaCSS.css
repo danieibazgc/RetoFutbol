@@ -1,0 +1,105 @@
+.info{
+    background-color: #E5E8E8;
+    height: 640px; /* Altura*/
+    margin: 15px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+
+.container-caja{
+    padding: 20px;
+}
+
+.ventana-caja{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+}
+
+/* Formulario para agregar un venta */
+
+.izquierda{
+
+}
+
+#formulario-venta{
+    width: 650px;
+
+}
+
+.card-body{
+    border: 1px solid #2874A6;
+    padding: 15px;
+}
+
+.d-flex{
+    width: 100%;
+
+}
+
+
+
+/* Tabla de la venta a realizar*/
+
+#nroserie{
+    margin-bottom: 5px;
+}
+
+#tabla-ventas {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.cabecera-venta{
+    text-align: center;
+    background-color: #3498DB;
+
+}
+
+.derecha{
+    width: 700px;
+}
+
+.scroll{
+    height: 350px; /* Altura fija para el div */
+    overflow-y: auto; /* Agregar scroll vertical si el contenido excede la altura */
+    overflow-x: hidden; /* Evitar el scroll horizontal */
+    padding-right: 15px; /* Añadir espacio para evitar el solapamiento del scroll */
+    border: 1px solid #ddd; /* Bordes opcionales para visualizar mejor */
+    background-color: white;
+}
+
+
+
+@media print {
+    .navegador, .izquierda, .btn, #titulo-caja, .accion{
+        display: none !important;
+    }
+    .cliente-info, .titulo-impresion {
+        display: block !important;
+        margin: 20px auto;
+    }
+    #tabla-ventas {
+        width: 100%;
+        font-size: 16px; /* Ajusta el tamaño de la fuente para que sea más legible en la impresión */
+    }
+
+    .scroll {
+        height: auto;
+    }
+
+    .card-footer {
+        display: none; /* Oculta el pie de página en la impresión */
+    }
+
+    .container-dentro{
+        width: 100%;
+        height: 100%;
+
+    }
+}
+.cliente-info, .titulo-impresion {
+    display: none;
+}

@@ -1,0 +1,74 @@
+.info{
+    background-color: #E5E8E8;
+    height: 640px; /* Altura*/
+    margin: 15px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+
+.container-cliente{
+   padding: 20px;
+}
+
+.ventana-cliente{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+}
+
+#formulario-cliente{
+    width: 350px;
+}
+
+#agregar{
+    background-color: #16A085;
+    border-color: #16A085;
+}
+
+#actualizar{
+    background-color: #8E44AD;
+    border-color: #8E44AD;
+}
+
+.derecha{
+    width: 900px;
+}
+
+#titulotabla{
+    margin: 0;
+    height: 34px;
+}
+
+.scroll{
+    height: 566px; /* Altura fija para el div */
+    overflow-y: auto; /* Agregar scroll vertical si el contenido excede la altura */
+    overflow-x: hidden; /* Evitar el scroll horizontal */
+    padding-right: 15px; /* Añadir espacio para evitar el solapamiento del scroll */
+    border: 1px solid #ddd; /* Bordes opcionales para visualizar mejor */
+}
+
+/* Estilos para la tabla */
+.table{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.cabecera{
+    text-align: center;
+    background-color: #A2D9CE;
+    
+}
+
+.btn-group{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+
+
+

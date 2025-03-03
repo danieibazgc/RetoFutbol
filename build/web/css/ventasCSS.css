@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.info{
+    background-color: #E5E8E8;
+    height: 640px; /* Altura*/
+    margin: 15px;
+    margin-top: 30px;
+    border: 1px solid;
+}
+
+#titulotabla{
+    background-color: #4b0082;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.scroll{
+    height: 566px; /* Altura fija para el div */
+    overflow-y: auto; /* Agregar scroll vertical si el contenido excede la altura */
+    overflow-x: hidden; /* Evitar el scroll horizontal */
+    padding-right: 15px; /* Añadir espacio para evitar el solapamiento del scroll */
+    border: 1px solid #ddd; /* Bordes opcionales para visualizar mejor */
+}
+
+/* Estilos para la tabla */
+.table{
+    width: 100%;
+    background-color: white;
+}
+
+.cabecera{
+    text-align: center;
+    background-color: #A2D9CE;
+    margin-top: 10px;
+}
+#disabled{
+    pointer-events: none;
+    cursor: default;
+    background-color: #F5B7B1; /* Estilo para mostrar que está deshabilitado */
+    border-color: #F5B7B1;
+    text-decoration: none;
+}
+.cabecera2{
+    background-color: #D7DBDD;
+}
+
+.table th{
+    vertical-align: middle !important;
+}
+
+
+

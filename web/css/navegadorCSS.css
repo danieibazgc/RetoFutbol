@@ -1,0 +1,122 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container-fuera{
+    background-color: #fff;
+    margin: 0px 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.container-dentro{
+    background-color: #52BE80;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1450px;
+    min-height: 780px;
+    box-sizing: content-box;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    max-width: 1420px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px;
+    background-color: #EAEDED;
+}
+
+.menu a{
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*div de cada menu (caja, cliente, usuario, etc..)*/
+.menu-tarjetas{
+    background-color: #A9DFBF;
+    padding: 10px;
+    width: 130px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+
+/*Tamaño para los iconos del menu*/
+.menu-tarjetas i{
+    font-size: 45px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-tarjetas p{
+    margin: 16px 0px;
+    width: 110px;
+    height: 18px;
+}
+.menu-tarjetas:hover{
+    background-color: #E5E8E8;
+    border: 1px solid black;
+}
+
+/*div Salir*/
+.exit{
+    width: 172px;
+    height: 110px;
+}
+.exit a{
+    background-color: #F1948A;
+    border: 1px solid #C0392B;
+    width: 150px;
+    height: 88px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+    color: #C0392B;
+    cursor: pointer;
+    box-sizing: content-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Tamaño del icono salir*/
+.exit i{
+    font-size: 40px;
+}
+
+.exit p{
+    margin: 30px 0px;
+    line-height: 1;
+}
+.exit a:hover{
+    background-color: #EC7063;
+}
+
