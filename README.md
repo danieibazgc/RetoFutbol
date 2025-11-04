@@ -25,7 +25,7 @@ git clone https://github.com/danieibazgc/RetoFutbol.git
 ```
 
 ### 2. Configurar la base de datos:
-- Instalar **MySQL** y crear la base de datos con el script SQL proporcionado.
+- Instalar **MySQL** y crear la base de datos con el script SQL.
 - Configurar la conexión a la base de datos en el código fuente.
 
 ### 3. Ejecutar el sistema:
